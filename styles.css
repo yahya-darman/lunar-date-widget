@@ -1,0 +1,72 @@
+body {
+    width: 350px;
+    min-height: 300px;
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.card-body {
+    min-height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#ramadan-countdown h2 {
+    font-size: 1.2rem;
+    color: #27ae60;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+#ramadan-countdown p {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+#hijri-date {
+    font-size: 1.2rem;
+    color: #27ae60;
+    font-weight: 500;
+}
+
+.prayer-time {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    border: 1px solid #e9ecef;
+}
+
+.prayer-name {
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.time {
+    color: #27ae60;
+    font-weight: 600;
+}
+
+.location-info {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.next-prayer {
+    background-color: #e8f5e9;
+    border-color: #c8e6c9;
+} 

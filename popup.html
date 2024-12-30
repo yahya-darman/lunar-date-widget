@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramadan Timer & Islamic Calendar</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container p-3">
+        <div class="card mb-3">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h5 class="card-title mb-0">Islamic Date</h5>
+                    <div class="location-info">
+                        <small id="location-text" class="text-muted">Detecting location...</small>
+                    </div>
+                </div>
+                <p class="text-center mb-0" id="hijri-date">Loading...</p>
+            </div>
+        </div>
+        
+        <div id="ramadan-countdown" class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title text-center">Time Until Ramadan</h5>
+                <div class="text-center">
+                    <div class="row">
+                        <div class="col">
+                            <h2 id="days">--</h2>
+                            <p>Days</p>
+                        </div>
+                        <div class="col">
+                            <h2 id="hours">--</h2>
+                            <p>Hours</p>
+                        </div>
+                        <div class="col">
+                            <h2 id="minutes">--</h2>
+                            <p>Minutes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="eid-countdown" class="card mb-3 d-none">
+            <div class="card-body">
+                <h5 class="card-title text-center">Time Until Eid-ul-Fitr</h5>
+                <div class="text-center mb-2">
+                    <h3 class="text-success">Ramadan Mubarak!</h3>
+                </div>
+                <div class="text-center">
+                    <div class="row">
+                        <div class="col">
+                            <h2 id="eid-days">--</h2>
+                            <p>Days</p>
+                        </div>
+                        <div class="col">
+                            <h2 id="eid-hours">--</h2>
+                            <p>Hours</p>
+                        </div>
+                        <div class="col">
+                            <h2 id="eid-minutes">--</h2>
+                            <p>Minutes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title mb-3" id="prayer-times-title">Prayer Times</h5>
+                <div class="prayer-times">
+                    <div class="prayer-time">
+                        <span class="prayer-name">Fajr</span>
+                        <span id="fajr-time" class="time">--:--</span>
+                    </div>
+                    <div class="prayer-time">
+                        <span class="prayer-name">Sunrise</span>
+                        <span id="sunrise-time" class="time">--:--</span>
+                    </div>
+                    <div class="prayer-time">
+                        <span class="prayer-name">Dhuhr</span>
+                        <span id="dhuhr-time" class="time">--:--</span>
+                    </div>
+                    <div class="prayer-time">
+                        <span class="prayer-name">Asr</span>
+                        <span id="asr-time" class="time">--:--</span>
+                    </div>
+                    <div class="prayer-time">
+                        <span class="prayer-name">Maghrib</span>
+                        <span id="maghrib-time" class="time">--:--</span>
+                    </div>
+                    <div class="prayer-time">
+                        <span class="prayer-name">Isha</span>
+                        <span id="isha-time" class="time">--:--</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html> 

@@ -128,3 +128,15 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Chrome Extension-specific
+*.pem
+
+# Additional project-specific ignores
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
